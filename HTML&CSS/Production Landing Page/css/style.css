@@ -1,0 +1,189 @@
+body{
+	font: 15px/1.5 Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f7fcf8;
+}
+
+
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+
+/* Header */
+header{
+	background-image:linear-gradient(to right, #11998e, #38ef7d);
+	color:#ffffff;
+	padding-top:30px;
+	min-height: 60px;
+	border-bottom: 3px darkviolet solid;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+}
+
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+	margin-top: 5px;
+}
+
+header #branding #header-img{
+  margin:0;
+}
+
+header nav{
+  float:right;
+}
+
+
+/* advertising */
+#advertising{
+	min-height: 200px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#advertising iframe{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Newsletter */
+#newsletter{
+	padding:15px;
+	color:#ffffff;
+	background-image:linear-gradient(to right, #11998e, #38ef7d);
+	border-top: 3px darkviolet solid; 
+}
+
+#newsletter h2{
+	float:left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+
+#form #submit{
+	height:35px;
+  	background:darkviolet;
+  	border:0;
+  	padding-left: 20px;
+  	padding-right:20px;
+  	color:#ffffff;
+}
+
+#boxes{
+  	margin: 40px auto 0 auto;
+  	padding: 30px 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-around;
+  	flex-wrap: wrap;
+}
+
+.box{
+  	text-align: center;
+  	font-weight: bold;
+  	margin-bottom: 20px;
+}
+
+
+#boxes img{
+	width:25%;
+}
+
+#products{
+	border-top: 3px darkviolet solid; 
+}
+
+.product{
+  	display: flex;
+  	flex-direction: row;
+}
+
+.desc{
+	display: flex;
+  	flex-direction: column;
+  	padding-left: 1em;
+}
+
+.product img{
+	flex:0 0 15%;
+	padding: 5px;
+	background-color: red;
+	margin-top: 20px;
+}
+
+footer{
+	padding:20px;
+	color:#ffffff;
+	text-align: center;
+	background-image:linear-gradient(to right, #11998e, #38ef7d);
+	border-top: 3px darkviolet solid; 
+}
+
+
+@media (max-width: 900px) {
+	header {
+		padding-top:0px;
+		min-height: 10px;
+	}
+
+	#header-img{
+		display: none;
+	}
+
+	header li{
+		padding: 0 5px 0 5px;
+		float: none;
+	}
+
+	header #branding {
+		margin-top: 0px;
+		text-align: center;
+		float: none;
+	}
+
+	header nav{
+		float: none;
+		text-align: center;
+	}
+
+	#newsletter{
+		float:none;
+		text-align: center;
+	}
+
+	#newsletter form #submit{
+		width: 261px;
+	}
+
+}

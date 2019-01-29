@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+html, body{
+	font-family: Titillium Web;
+	background-color:#c299ff;
+	text-align:center; 
+	min-width: 320px;
+}
+
+#form{
+	background-color: #e6eeff;
+  	margin:0 auto;
+  	border-radius: 10px;
+  	width: 75%;
+  	max-width: 900px;
+  	padding: 10px;
+  	padding-top: 20px;	
+}
+
+.row-wrapper{
+	border-radius: 10px;
+  	margin:0 auto;
+  	display:flex;
+  	align-items: center;
+  	justify-content: center;
+  	min-height: 44px;
+  	height: auto;
+  	margin: 10px;
+}
+
+
+.leftSection{ 	
+	/*border:0.5px solid red;*/
+  	margin-right: 5px;
+  	text-align:right;
+  	width:450px;
+  	
+}
+
+.rightSection{
+	/*border:0.5px solid yellow;*/
+  	margin-left: 5px;
+  	text-align:left;
+  	width:450px;
+  	
+}
+
+#dropdown{
+	height: 35px;
+  	width: 140px;
+  	padding: 5px;
+  	border: 0.5px solid #c0c0c0;
+  	border-radius: 5px;
+}
+
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+#submit{
+	height: 35px;
+  	width: 140px;
+  	margin:10px auto;
+  	background-color: #c299ff;
+  	color:white;
+  	font-size:1.1em;
+  	border-radius:15px; 
+}
+
+#age{
+	width:169px;
+	height:15px;
+}
+
+
+.row-wrapper.top{
+	align-items: flex-start;
+}
+
+
+#radioList{
+	list-style-type: none;
+}
+
+#checkList{
+	list-style-type: none;
+}

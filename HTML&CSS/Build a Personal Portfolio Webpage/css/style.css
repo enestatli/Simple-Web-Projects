@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+html, body {
+	min-width:300px;
+	font: 16px/1.5 Arial, Helvetica,sans-serif;
+	font-family: 'Sarabun', sans-serif;
+  	padding:0;
+  	margin:0;
+  	background-color:#ffffff;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+a {
+	text-decoration:none;
+  	text-transform: uppercase;
+  	color: black;
+}
+
+#left {
+	position: fixed;
+	width:50%;
+	top:0;
+	left:0;
+	text-align: center;
+	font-size: 35px;
+}
+
+#left .text {
+	position: absolute;
+	width: 100%;
+	margin-top: 50%;
+
+}
+
+
+#right {
+	width:50%;
+	margin-left:50%;
+
+}
+
+#right #navbar {
+	position: fixed;
+	right: 0;
+	top:0;
+	margin-top: 1%;
+	margin-right: 2%;
+	font-size:16px;
+}
+
+#right #navbar ul li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+#right #navbar ul li a:active{
+	border-bottom: 2px solid black;
+}
+
+#right #navbar ul li a:hover{
+	font-weight: bold;
+}
+
+#right #welcome-section {
+	sposition: relative;
+	width: 100%;
+	margin-top: 57%;
+	text-align:center;
+	font-size:35px;
+	height: 100vh;
+}
+
+#right #about {
+	margin-top: 25%;
+	margin-right: 7%;
+	margin-left: 5%;
+}
+
+#right #about p{
+	font-size:20px;
+	margin-top: 5%;
+}
+
+#right #projects{
+	text-align: center;
+}
+
+#right #projects .project-tile .project-pic{
+	width: 50%;
+	margin-top: 5%;
+	padding: 5%;
+}
+
+#right #projects .project-tile .project-title{
+	font-size: 16px;
+	text-transform: none;
+	font-weight: bold;
+	margin-top: -5%;
+}
+
+
+#right #contacts {
+	margin-top: 10%;
+	text-align: center;
+}
+
+#right #contacts .contact-link{
+	padding:50px;
+}
+
+
+footer{
+  	padding:20px;
+  	margin-top:20px;
+  	text-align: center;
+}
+
+
+
+@media (max-width: 800px) {
+	#left {
+		position: absolute;
+		width: 100%;
+	}
+
+	#right {
+		position: absolute;
+		margin-left: 0px;
+		margin-top: 500px;
+		width: 100%;
+	}
+
+	#navbar{
+		position: absolute;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+
+

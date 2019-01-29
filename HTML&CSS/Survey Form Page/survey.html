@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nsttl</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+	<h1 id="title">Himalayan Marmot Customer Satisfaction Survey</h1>
+<div id="form">
+	<p id="description">Long live Himalayan Marmot! Let us know how we can improve our products.</p>
+	<form id="survey-form">
+		<div class="row-wrapper">
+		<div class="leftSection">
+			<label id="name-label">*Name:</label>
+		</div>
+			<div class="rightSection">
+				<input id="name" type="text" required placeholder="Enter Your Name">
+			</div>
+		</div>
+		<div class="row-wrapper">
+		<div class="leftSection">
+			<label id="email-label">*E-mail:</label>
+		</div>
+			<div class="rightSection">
+				<input id="email" type="email" required placeholder="Enter Your E-mail Adress">
+			</div>
+		</div>
+		<div class="row-wrapper">
+		<div class="leftSection">
+			<label id="number-label">*Age:</label>
+		</div>
+			<div class="rightSection">
+				<input id="age" type="number" min="6" max="36" required placeholder="Enter Your Age">
+			</div>
+	</div>
+	<div class="row-wrapper">
+		<div class="leftSection">
+			<label name="xyz">Which breed are you?</label>
+		</div>
+		<div class="rightSection">	
+			<select id="dropdown" name="xyz" class="dropdown">
+				<option disabled value>Select an option</option>
+				<option value="good">Good boy</option>
+				<option value="notbad">Shiba Inu</option>
+				<option value="cute">Malamute</option>
+				<option value="sweet">Akita</option>
+				<option value="filty">Hound</option>
+				<option value="aww">Corgi</option>
+				<option value="aww">Other</option>
+			</select>
+		</div>
+	</div>
+	<div class="row-wrapper top">
+		<div class="leftSection">
+			<label id="radioLabel" for="radioList">How likely is that you would recommend Himalayan Marmot dog food to a friend?</label>
+		</div>
+		<div class="rightSection">
+			<ul id="radioList">
+				<li>
+			<input id="rating" type="radio" name="radio-button" value="1">For sure</li>
+				<li>
+			<input id="rating" type="radio" name="radio-button" value="2">Definitely</li>
+				<li>
+			<input id="rating" type="radio" name="radio-button" value="3">Of course</li>
+				<li>
+			<input id="rating" type="radio" name="radio-button" value="4">No doubt</li>
+				<li>
+			<input id="rating" type="radio" name="radio-button" value="5">You are best</li>
+		</ul>
+		</div>
+	</div>
+	<div class="row-wrapper top">
+		<div class="leftSection">
+			<label id="checkLabel" for="checkList">Things that should be improved in the future</label>
+		</div>
+		<div class="rightSection">
+			<ul id="checkList">
+				<li>
+			<input id="rating" type="checkbox" name="check-box" value="1">More Salt</li>
+				<li>
+			<input id="rating" type="checkbox" name="check-box" value="2">Less sugar</li>
+				<li>
+			<input id="rating" type="checkbox" name="check-box" value="3">More water</li>
+				<li>
+			<input id="rating" type="checkbox" name="check-box" value="3">More curry</li>
+				<li>
+			<input id="rating" type="checkbox" name="check-box" value="3">Good things</li>
+				<li>
+			<input id="rating" type="checkbox" name="check-box" value="3">Good sugar</li>
+				<li>
+			<input id="rating" type="checkbox" name="check-box" value="3">Anything</li>
+		</ul>
+		</div>
+	</div>
+	<div class="row-wrapper top">
+		<div class="leftSection">
+			<label id="additionalLabel" for="additional">Any Comments or Suggestions?</label>
+		</div>
+		<div class="rightSection">
+			<textarea id="additional" rows="6" cols="42">Tell me more...</textarea>
+		</div>
+	</div>
+		<button id="submit" type="submit">Submit</button>
+	</form>
+</div>
+</body>
+</html>
+

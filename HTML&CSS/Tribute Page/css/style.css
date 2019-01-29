@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body{
+	font: 15px/1.5 Merriweather,serif;
+	padding: 0;
+	margin:0;
+	background-color:#f4f4f4;
+
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  /*border: 2px red solid;*/
+}
+
+/* Header */
+header{
+	background: #2F4F4F;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height:70px;
+	border-bottom:black 3px solid;
+
+}
+
+#title h1{
+	margin: 0;
+	text-align: center;
+  font-size:40px;
+}
+
+#title p{
+	margin: 10px;
+	text-align: center;
+}
+
+/* Img-Section */
+#img-section{
+	min-height:300px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color:#f4f4f4; 
+	border-bottom: black 3px solid;
+}
+
+#img-caption{
+  font-size:10px;
+  margin-top:10px;
+}
+
+img{
+	width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Tribute */
+#tribute{
+	padding: 15px;
+	color:#ffffff;
+	background-color: #2F4F4F;
+	border-bottom:black 3px solid;
+
+}
+
+#tribute ul li{
+	list-style-type: afar;
+	font-size:14px;
+	line-height: 2;
+}
+
+#tribute p{
+	margin-top: 30px;
+}
+
+#tribute p span{
+	font-style: italic;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+  font-weight: bold;
+}
+
+/* Footer */
+footer{
+	padding: 20px;
+	margin-top:20px;
+	color: #ffffff;
+	background-color: #2F4F4F;
+	text-align: center;
+	border-top:black 3px solid;
+}
